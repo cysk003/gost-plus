@@ -1,16 +1,16 @@
 module github.com/go-gost/gost.plus
 
-go 1.23
+go 1.23.8
 
-toolchain go1.23.0
+toolchain go1.24.4
 
 require (
-	gioui.org v0.8.0
-	gioui.org/x v0.8.1
+	gioui.org v0.9.0
+	gioui.org/x v0.9.0
 	github.com/go-gost/core v0.3.0
 	github.com/go-gost/x v0.5.0
 	github.com/google/uuid v1.6.0
-	golang.org/x/exp/shiny v0.0.0-20240707233637-46b078467d37
+	golang.org/x/exp/shiny v0.0.0-20250408133849-7e4ce0ab07d0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -27,7 +27,7 @@ require (
 	github.com/go-gost/relay v0.5.0 // indirect
 	github.com/go-gost/tls-dissector v0.1.1 // indirect
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
-	github.com/go-text/typesetting v0.2.1 // indirect
+	github.com/go-text/typesetting v0.3.0 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/gravitational/trace v1.1.16-0.20220114165159-14a9a7dd6aaf // indirect
@@ -58,12 +58,12 @@ require (
 	github.com/yl2chen/cidranger v1.0.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
-	golang.org/x/exp v0.0.0-20241210194714-1829a127f884 // indirect
-	golang.org/x/image v0.18.0 // indirect
+	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
+	golang.org/x/image v0.26.0 // indirect
 	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/term v0.27.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/text v0.24.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	google.golang.org/grpc v1.67.1 // indirect
